@@ -1,0 +1,22 @@
+{
+  "name": "ruuuslaaan/f3-cms",
+  "type": "project",
+  "authors": [
+    {
+      "name": "RY",
+      "email": "ruslan.yesenovski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "bcosca/fatfree-core": "^3.8"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "files": [
+      "app/Bootstrap.php"
+    ]
+  }
+}
